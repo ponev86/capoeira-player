@@ -1,13 +1,1 @@
-/*!**************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss ***!
-  \**************************************************************************************************************************************************/
-.capoeira-player {
-  height: 100px;
-  background-color: azure;
-}
-.capoeira-player * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2Fwb2VpcmEtcGxheWVyLmNzcyIsIm1hcHBpbmdzIjoiOzs7QUFBQTtFQUNFO0VBQ0E7QUFDRjtBQUNFO0VBQ0U7VUFBQTtBQUNKLEMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jYXBvZWlyYS1wbGF5ZXIvLi9zcmMvbWFpbi5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIi5jYXBvZWlyYS1wbGF5ZXIge1xuICBoZWlnaHQ6IDEwMHB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBhenVyZTtcblxuICAqIHtcbiAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICB9XG59XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/
+.capoeira-player{height:100px;background-color:azure}.capoeira-player *{-webkit-box-sizing:border-box;box-sizing:border-box}
