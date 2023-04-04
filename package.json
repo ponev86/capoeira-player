@@ -4,9 +4,16 @@
   "description": "video player for learn capoeira",
   "main": "dist/capoeira-player.js",
   "types": "dist/capoeira-player.d.ts",
+  "prepublish": "npm run build",
   "scripts": {
     "dev": "webpack --env development --watch",
-    "build": "webpack --env production"
+    "build": "webpack --env production",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build"
+    }
   },
   "repository": {
     "type": "git",
@@ -38,6 +45,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-webpack-plugin": "^4.0.0",
+    "husky": "^8.0.3",
     "mini-css-extract-plugin": "^2.7.5",
     "postcss-loader": "^7.2.3",
     "postcss-preset-env": "^8.3.0",
