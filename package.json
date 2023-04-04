@@ -7,13 +7,7 @@
   "prepublish": "npm run build",
   "scripts": {
     "dev": "webpack --env development --watch",
-    "build": "webpack --env production",
-    "prepare": "husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build"
-    }
+    "build": "webpack --env production"
   },
   "repository": {
     "type": "git",
