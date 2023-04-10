@@ -26,12 +26,8 @@
   },
   "homepage": "https://github.com/ponev86/capoeira-player#readme",
   "devDependencies": {
-    "@babel/core": "^7.21.4",
-    "@babel/preset-env": "^7.21.4",
-    "@babel/preset-typescript": "^7.21.4",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
-    "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "eslint": "^8.37.0",
     "eslint-config-airbnb-base": "^15.0.0",

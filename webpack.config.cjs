@@ -9,19 +9,23 @@ module.exports = ({ development }) => ({
   output: {
     filename: 'capoeira-player.js',
     path: path.resolve(__dirname, 'dist'),
-    libraryExport: 'default',
-    libraryTarget: 'umd',
-    umdNamedDefine: true,
+    library: {
+      type: 'module',
+    },
+  },
+  experiments: {
+    outputModule: true,
+    futureDefaults: true,
   },
   resolve: {
-    extensions: ['.ts'],
+    extensions: ['.ts', '.js'],
   },
   module: {
     rules: [
       {
         test: /\.ts$/,
         exclude: /node_modules/,
-        use: ['babel-loader', 'ts-loader'],
+        use: ['ts-loader'],
       },
       {
         test: /\.s[ac]ss$/i,
